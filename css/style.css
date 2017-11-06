@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Monoton|Prata|Prosto+One|Suez One|Cherry+Cream+Soda|Patua+One|Quantico');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Monoton|Prata|Prosto+One|Suez One|Cherry+Cream+Soda|Patua+One|Quantico|Lato|Anton');
 
 
-html, body {
-    background: #000;  
+body {
+    background: #000;
     background-image: url(img10.jpg);
     background-size: cover;
     background-position: center;
@@ -11,6 +11,9 @@ html, body {
     font-family: 'Poiret One', arial, sans-serif;
 }
 
+
+
+
 .col-sm-4 {
     color: #fff;
     font-size: 3em;
@@ -18,15 +21,23 @@ html, body {
     text-align: center;
 }
 
-.brname {  color: #fff;
+.brname {
+    color: #fff;
     font-family: Monoton, sans-serif;
     font-size: 5em;
-    margin: 0.9em 0 0 0;
-    text-align: center; 
+    padding: 0.9em 0 0 0;
+    text-align: center;
 }
 
-.btn-secondary{
+.logopic {
     
+    float: left;
+    
+    
+}
+
+.btn-secondary {
+
     border-radius: 44px;
     font-size: 20px;
     min-height: 44px;
@@ -37,24 +48,24 @@ html, body {
     border-color: #c97070;
     font-family: Quantico, sans-serif;
     color: antiquewhite;
-  
-    
+
+
 }
 
-    .brnamenav {
-        
-        font-size: 2em;
-    }
+.brnamenav {
+
+    font-size: 2em;
+}
 
 .epitch {
-    font-family: Poiret One,sans-serif;
+    font-family: Poiret One, sans-serif;
     font-size: 2em;
     color: #fff;
     margin: 2em 0 0 0;
     text-align: center;
 }
 
-    .btngetst { 
+.btngetst {
     font-family: sans-serif;
     font-size: 2em;
     color: #fff;
@@ -65,7 +76,8 @@ html, body {
 .jumbotron jumbotron-fluid {
     background: #aaa;
 }
-.brname1{
+
+.brname1 {
     color: #333;
     font-family: sans-serif;
     font-size: 2em;
@@ -81,120 +93,146 @@ html, body {
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0.9em 0 0.9em 0;
 }
-.lupa {
-    
-    width: 35px;
-    height: 30px;
-    background-color: transparent;
-    margin-top: 0.5em;
+
+.btn-outline-info {
+    border-color: white;
+    font-size: 17px;
+    background-color: rgba(73, 80, 92, 0.58)
 }
 
-.col{
+
+
+.col {
     width: 40rem;
 }
-.col:hover img{
+
+.col:hover img {
     transform: scale(1.1);
-   -moz-transform: scale(1.1);
-       -webkit-transform: scale (1:1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale (1:1);
 }
 
 .aboutinfo {
-    color:#D7D704;
+    color: #D7D704;
     font-family: Prata, sans-serif;
     font-size: 1.1em;
     margin: 2em 0 0 0;
     text-align: center;
     background: #010101;
-    background: transparent;
-    
+    padding: 30px 30px 30px 30px;
+    background: rgba(0, 0, 0, 0.67);
+    margin-top: 20px;
+
+
 }
 
 
 .contactinfo {
-    color:#D7D704;
+    color: #D7D704;
     font-family: Prata, sans-serif;
     font-size: 1.1em;
-    margin: 2em 0 0 0;
-    text-align: center;
+    margin-top: 35px;
+    float: right;
     background: #010101;
-    background:transparent;
+    padding: 30px 30px 30px 30px;
+    background: rgba(0, 0, 0, 0.67);
+    margin-bottom: 30px;
+
+
 }
+
+.map {
+
+    width: 470px;
+    height: 410px;
+    color: firebrick;
+    font-family: Suez One, sans-serif;
+    font-size: 2em;
+    float: right;
+    margin: 1em -0.3em 2em 2em;
+
+
+}
+
+
 .brname2 {
     color: #fff;
     font-family: Prosto One, sans-serif;
     font-size: 1.2em;
-      
+
 }
-.card{
-    
-    background-color: #333; 
+
+.card {
+
+    background-color: #333;
     border-color: #333;
 }
+
 .simg {
-    
-    width: 150px; 
+
+    width: 150px;
     height: 180px;
 
-   
+
 }
 
-.bline{
+.bline {
     text-align: center;
-    background: #150910; 
+    background: #150910;
     margin: 8em 0 0 0;
     grid-row: auto;
 }
 
 .mpic {
-    
+
     width: 250px;
     height: 350px;
     border-radius: 2px;
     border: 2px solid #000;
     padding: 10px 10px;
     border-color: #791e1e;
- box-shadow: 5px 5px 5px #000;
-   
-    
-   
- 
-    
+    box-shadow: 5px 5px 5px #000;
+
+
+
+
+
 }
 
 
 
 
-.mname{
-    color:firebrick;
+.mname {
+    color: firebrick;
     font-family: Suez One, sans-serif;
     font-size: 2em;
     display: block;
     margin-bottom: 2em;
-    
-     
+
+
 }
 
 .mdesc1 {
-    
-    color: #777575;   
+
+    color: #777575;
     font-family: Suez One, sans-serif;
     display: block;
     padding-bottom: 2em;
 
-    
+
 }
 
 .moviepage {
     padding-top: 3em;
     background: rgba(0, 0, 0, 0.67);
     margin-top: 20px;
-   padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .mava {
-    
+
     margin-right: 4em;
-   margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 button.accordion {
@@ -207,12 +245,13 @@ button.accordion {
     border: none;
     outline: none;
     transition: 0.4s;
-    
-    
+
+
 }
 
 
-button.accordion.active, button.accordion:hover {
+button.accordion.active,
+button.accordion:hover {
     background-color: #171717;
 }
 
@@ -232,26 +271,27 @@ div.panel {
     background: #000;
     margin-bottom: -10px;
     margin-top: 5em;
-    
-    
+
+
 }
 
 
 #mpoints {
-    
-     color: #960606;   
+
+    color: #960606;
     font-family: Cherry Cream Soda, sans-serif;
-   
+
 }
 
-.msection{
-    
-    
-    color: #960606;   
-    font-family: Cherry Cream Soda, sans-serif; 
+.msection {
+
+
+    color: #960606;
+    font-family: Cherry Cream Soda, sans-serif;
+
 }
 
-.screens  {
+.screens {
     padding: 5px;
     border: 1px solid #2c0e0e;
     border-radius: 1px;
@@ -265,10 +305,10 @@ div.panel {
 }
 
 .screens:hover {
-  border: 1px solid #fff;
- transform: scale(1.1);
-     -moz-transform: scale(1.1);
-       -webkit-transform: scale (1:1);
+    border: 1px solid #fff;
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale (1:1);
 }
 
 
@@ -277,7 +317,7 @@ div.panel {
 
 
 .trailer {
-  
+
     padding: 5px;
     border: 1px solid #2c0e0e;
     border-radius: 1px;
@@ -291,10 +331,10 @@ div.panel {
 }
 
 .trailer:hover {
-    
+
     transform: scale(1.1);
-     -moz-transform: scale(1.1);
-       -webkit-transform: scale (1:1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale (1:1);
 }
 
 #oscreen {
@@ -305,8 +345,8 @@ div.panel {
     border-radius: 1px;
     box-shadow: 1px 1px 1px #000;
     background: rgba(126, 56, 56, 0.65);
-     
-   
+
+
 }
 
 
@@ -326,21 +366,63 @@ div.panel {
 .btn9 {
     color: antiquewhite;
     font-size: 4em;
-    
-   
+
+
 }
 
 .spacer {
-    
+
     padding: 100px;
 }
 
 .sreport {
-    
+
     text-align: center;
     color: #6e9615;
     font-size: 50px;
     margin: 2em 2em 2em 2em;
     font-family: sans-serif;
 }
-    
+
+.ffont {
+
+    font-family: Lato, sans-serif;
+}
+
+#fnote {
+    font-size: 1em;
+
+}
+
+#stable {
+    padding-top: 3em;
+    background: rgba(221, 218, 218, 0.41);
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    border-radius: 2px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 5px #000;
+
+
+}
+
+#stable2 {
+    padding-top: 3em;
+    background: rgba(221, 218, 218, 0.41);
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+    border-radius: 2px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 5px #000;
+}
+
+
+.sclick {
+
+    color: rgb(20, 0, 255);
+    font-family: Anton, sans-serif;
+    font-size: 1.2em;
+
+}

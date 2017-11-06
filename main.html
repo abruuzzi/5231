@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,203 +10,212 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/_carousel.scss">
-     <link rel="shortcut icon" type="imgage/png" href="img/mylogo.png"> 
-     
-     
-     
-      <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
-			
-      
+    <link rel="stylesheet" href="css/_carousel.scss">
+    <link rel="shortcut icon" type="imgage/png" href="img/mylogo.png">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
 
-   
-   
-    
-  </head>
-  
-  <body>
-  
-  <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse bg-inverse">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="index.html">
-       <p class="brnamenav">BoomSi</p>  </a>
-    
+        <a class="navbar-brand" href="index.html">
+            <p class="brnamenav">BoomSi</p>
+        </a>
 
-  <div class="collapse navbar-collapse" id="mainNav">
-    <ul class="navbar-nav mr-auto">
-    
-     <li class="nav-item">
-         <a class="nav-link" href="main.html"><h4>Home</h4></a>
-      </li>
-       <li class="nav-item">
-           <a class="nav-link" href="about.html"><h4>About</h4></a>
-      </li>
-       <li class="nav-item">
-           <a class="nav-link" href="site_map.html"><h4>Sitemap</h4></a>
-      </li>
-      
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" >
-        <a href="search_decoration.html"> <img src="img/lupa.png" class="lupa">  </a>
-    </form>
-  </div>
-</nav>
-  
- 
 
-    
-        
-    <h1 class="text-center py-2 my-5">       
- <div id="carouselmain" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselmain" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselmain" data-slide-to="1"></li>
-    <li data-target="#carouselmain" data-slide-to="2"></li>
-    <li data-target="#carouselmain" data-slide-to="3"></li>
-    <li data-target="#carouselmain" data-slide-to="4"></li>
-    <li data-target="#carouselmain" data-slide-to="5"></li>
-    <li data-target="#carouselmain" data-slide-to="6"></li>
-    <li data-target="#carouselmain" data-slide-to="7"></li>
-    
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-     <div class="container">
-         <a href="Apes.html"> <img class="d-block img-fluid" src="img/War_for_the_Planet_of_the_Apes/apes.jpg" alt="First slide"> </a>
-       <div class="carousel-caption d-none d-md-block">
-    <h3>War for the Planet of the Apes</h3>
-    <p> </p>
-  </div>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">
+                        <h4>Home</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <h4>About</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="site_map.html">
+                        <h4>Sitemap</h4>
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <form method="get" action="search_decoration.html" class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" id="search" placeholder="Search">
+                <a href="search_decoration.html"> <input class="btn btn-outline-info my-2 my-sm-0" type="button" value="Search" /> </a>
+                <ul id="results" style="display:none"></ul>
+            </form>
         </div>
-    </div>
-    <div class="carousel-item">
-     <div class="container">
-      <a href="Transformers.html"><img class="d-block img-fluid" src="img/Transformers_The_Last_Knight/transformers3.jpg" alt="Second slide"></a>
-       <div class="carousel-caption d-none d-md-block">
-    <h3>Transformers: The Last Knight</h3>
-    <p> </p>
-        </div>
-    </div>
-      </div>
-    <div class="carousel-item">
-     <div class="container">
-     <a href="Space.html"><img class="d-block img-fluid" src="img/The_Space_Between_Us/space2.jpg" alt="Third slide"> </a> 
-       <div class="carousel-caption d-none d-md-block">
-    <h3>The Space Between Us</h3>
-    <p> </p>
-       
-        </div>
-    </div>
-      </div>
-     <div class="carousel-item">
-     <div class="container">
-      <a href="Arthur.html"><img class="d-block img-fluid" src="img/King_Arthur_Legend_of_the_Sword/arthur3.jpg" alt="Fourth slide"> </a>
-        <div class="carousel-caption d-none d-md-block">
-    <h3>King Arthur Legend of the Sword</h3>
-    <p> </p>
-        </div>
-        </div>
-    </div>
-     <div class="carousel-item">
-     <div class="container">
-         <a href="Pirates.html"> <img class="d-block img-fluid" src="img/Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales/pirates2.jpg" alt="Fifth slide"> </a>
-         <div class="carousel-caption d-none d-md-block">
-    <h3>Pirates of the Caribbean: Dead Men Tell No Tales</h3>
-    <p> </p>
-        </div>
-        </div>
-    </div>
-     <div class="carousel-item">
-     <div class="container">
-         <a href="Spider_Man.html"> <img class="d-block img-fluid" src="img/Spider-Man_Homecoming/spiderman3.jpg" alt="Sixth slide"> </a>
-         <div class="carousel-caption d-none d-md-block">
-    <h3>Spider-Man: Homecoming</h3>
-    <p> </p>
-        </div>
-        </div>
-    </div>
-     <div class="carousel-item">
-     <div class="container">
-         <a href="Mummy.html"><img class="d-block img-fluid" src="img/The_Mummy/mummy.jpg" alt="seventh slide"></a>
-        <div class="carousel-caption d-none d-md-block">
-    <h3>The Mummy</h3>
-    <p> </p>
-        </div>
-        </div>
-    </div>
-     <div class="carousel-item">
-     <div class="container">
-     <a href="It.html"> <img class="d-block img-fluid" src="img/It/it1.jpg" alt="eighth slide"> </a>
-        <div class="carousel-caption d-none d-md-block">
-    <h3>It</h3>
-    <p> </p>
-        </div>
-        </div>
-    </div>
-    
-  </div>
-  <a class="carousel-control-prev" href="#carouselmain" role="button" data-slide="prev">
+    </nav>
+
+
+
+
+
+    <h1 class="text-center py-2 my-5">
+        <div id="carouselmain" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselmain" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselmain" data-slide-to="1"></li>
+                <li data-target="#carouselmain" data-slide-to="2"></li>
+                <li data-target="#carouselmain" data-slide-to="3"></li>
+                <li data-target="#carouselmain" data-slide-to="4"></li>
+                <li data-target="#carouselmain" data-slide-to="5"></li>
+                <li data-target="#carouselmain" data-slide-to="6"></li>
+                <li data-target="#carouselmain" data-slide-to="7"></li>
+
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <a href="Apes.html"> <img class="d-block img-fluid" src="img/War_for_the_Planet_of_the_Apes/apes.jpg" alt="First slide"> </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>War for the Planet of the Apes</h3>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <a href="Transformers.html"><img class="d-block img-fluid" src="img/Transformers_The_Last_Knight/transformers3.jpg" alt="Second slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Transformers: The Last Knight</h3>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <a href="Space.html"><img class="d-block img-fluid" src="img/The_Space_Between_Us/space2.jpg" alt="Third slide"> </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>The Space Between Us</h3>
+                            <p> </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <a href="Arthur.html"><img class="d-block img-fluid" src="img/King_Arthur_Legend_of_the_Sword/arthur3.jpg" alt="Fourth slide"> </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>King Arthur: Legend of the Sword</h3>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <a href="Pirates.html"> <img class="d-block img-fluid" src="img/Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales/pirates2.jpg" alt="Fifth slide"> </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Pirates of the Caribbean: Dead Men Tell No Tales</h3>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <a href="Spider_Man.html"> <img class="d-block img-fluid" src="img/Spider-Man_Homecoming/spiderman3.jpg" alt="Sixth slide"> </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Spider-Man: Homecoming</h3>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <a href="Mummy.html"><img class="d-block img-fluid" src="img/The_Mummy/mummy.jpg" alt="seventh slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>The Mummy</h3>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <a href="It.html"> <img class="d-block img-fluid" src="img/It/it1.jpg" alt="eighth slide"> </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>It</h3>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselmain" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselmain" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselmain" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
-   </h1>
-    
-        
-        
-        
-    
+        </div>
+    </h1>
+
+
+
+
+
     <div class="container text-center">
-        <p class="newreoth"> New Releases:</p> 
-     </div>
-     
-      
-     
-    
-     
-     <div class="container">
- <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}' class="center">
- 
-     <div> <a href="Apes.html"  > <img src="img/War_for_the_Planet_of_the_Apes/main.jpg" class="simg"></a></div>
-     <div> <a href="Arthur.html"> <img src="img/King_Arthur_Legend_of_the_Sword/main.jpg"  class="simg"></a></div>
-     <div> <a href="Spider_Man.html"> <img src="img/Spider-Man_Homecoming/main.jpg"  class="simg"></a></div>
-     <div> <a href="Pirates.html" > <img src="img/Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales/main.jpg"  class="simg">  </a></div>
-     <div> <a href="Mummy.html"> <img src="img/The_Mummy/main.jpg"  class="simg"></a></div>
-     <div> <a href="Space.html"> <img src="img/The_Space_Between_Us/main.jpg"  class="simg"></a></div>
-     <div> <a href="Transformers.html"> <img src="img/Transformers_The_Last_Knight/main.jpg"  class="simg"></a></div>
-     <div> <a href="It.html"> <img src="img/It/main.jpg" class="simg"></a></div>
-    
-</div>
-     </div>
-      
-     
-     
-     
-     
-     <div class="container text-center"><p class="newreoth"> Others:</p> 
-     </div>
-    
-    
-    
-    
+        <p class="newreoth"> New Releases:</p>
+    </div>
+
+
+
+
+
     <div class="container">
-        
-        
-        
+        <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}' class="center">
+
+            <div> <a href="Apes.html"> <img src="img/War_for_the_Planet_of_the_Apes/main.jpg" class="simg"></a></div>
+            <div> <a href="Arthur.html"> <img src="img/King_Arthur_Legend_of_the_Sword/main.jpg"  class="simg"></a></div>
+            <div> <a href="Spider_Man.html"> <img src="img/Spider-Man_Homecoming/main.jpg"  class="simg"></a></div>
+            <div> <a href="Pirates.html"> <img src="img/Pirates_of_the_Caribbean_Dead_Men_Tell_No_Tales/main.jpg"  class="simg">  </a></div>
+            <div> <a href="Mummy.html"> <img src="img/The_Mummy/main.jpg"  class="simg"></a></div>
+            <div> <a href="Space.html"> <img src="img/The_Space_Between_Us/main.jpg"  class="simg"></a></div>
+            <div> <a href="Transformers.html"> <img src="img/Transformers_The_Last_Knight/main.jpg"  class="simg"></a></div>
+            <div> <a href="It.html"> <img src="img/It/main.jpg" class="simg"></a></div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container text-center">
+        <p class="newreoth"> Others:</p>
+    </div>
+
+
+
+
+    <div class="container">
+
+
+
         <div class="row">
-            
-                
+
+
             <div class="col">
-               <div class="card card-inverse"> 
-                  <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Avatar II</h5>
                        <img src="img/Z_Others/other.png" alt="pic"  class="card-img-button img-fluid"> 
@@ -213,76 +223,77 @@
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
-             <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+            <div class="col">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">The Dark Knight</h5>
                       <img src="img/Z_Others/other1.jpg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
-             <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+            <div class="col">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Deadpool</h5>
                       <img src="img/Z_Others/other2.jpg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
             <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Dragons</h5>
                       <img src="img/Z_Others/other3.jpg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
-          <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+            <div class="col">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Sight</h5>
                       <img src="img/Z_Others/other4.jpg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
-            </div>
-             </div>
-             
-      <div class="container text-center"><p class="newreoth"> Others:</p> 
-     </div>
-    
-    
-    
-    
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <p class="newreoth"> Others:</p>
+    </div>
+
+
+
+
     <div class="container">
-        
-        
-        
+
+
+
         <div class="row">
-            
-                
+
+
             <div class="col">
-               <div class="card card-inverse"> 
-                  <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Fantastic Four</h5>
                        <img src="img/Z_Others/other5.jpg" alt="pic"  class="card-img-button img-fluid"> 
@@ -290,85 +301,89 @@
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
-             <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+            <div class="col">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Brothers</h5>
                       <img src="img/Z_Others/other6.jpg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
-             <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+            <div class="col">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Riddick</h5>
                       <img src="img/Z_Others/other7.jpg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
             <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Squad</h5>
                       <img src="img/Z_Others/other8.jpeg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
+                </div>
+
             </div>
-          <div class="col">
-               <div class="card card-inverse">
-                   <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
+            <div class="col">
+                <div class="card card-inverse">
+                    <span data-toggle="tooltip" title="decoration item" data-placement="bottom">
                    <div class="card-block">
                       <h5 class="card-title">Michael Keaton</h5>
                       <img src="img/Z_Others/other9.jpg" alt="pic"  class="card-img-button img-fluid">
                        
                    </div>
                    </span>
-               </div>
-                
-            </div>
-            </div>
-             </div>
-             
-              
+                </div>
 
-             <hr id="line">
-            <div class="container-fluid">
-           
-            <nav class="nav justify-content-end nav-pills flex-column flex-md-row nav-fill navbar navbar-toggleable-md  transparent">
-  <li class="nav-item">
-      <a class="nav-link btn9" href="site_map.html"><h4>Sitemap</h4></a>
-  </li>
-  <li class="nav-item">
-      <a class="nav-link btn9" href="about.html"><h4>About</h4></a>
-  </li>
-  <li class="nav-item">
-      <a class="nav-link" href=""> <img src="img/GetitonG.png" width="120" height="120" margin="auto"></a>
-  </li>
-  <li class="nav-item">
-      <a class="nav-link" href=""> <img src="img/GetitonA.png" width="120" height="120" margin="auto"></a>
-  </li>
-</nav>
-             </div>   
-    
-    
-    
+            </div>
+        </div>
+    </div>
 
-   
+
+
+    <hr id="line">
+    <div class="container-fluid">
+
+        <nav class="nav justify-content-end nav-pills flex-column flex-md-row nav-fill navbar navbar-toggleable-md  transparent">
+            <li class="nav-item">
+                <a class="nav-link btn9" href="site_map.html">
+                    <h4>Sitemap</h4>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn9" href="about.html">
+                    <h4>About</h4>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://play.google.com/store/movies" target="_blank"> <img src="img/GetitonG.png" width="120" height="120" margin="auto"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://trailers.apple.com" target="_blank"> <img src="img/GetitonA.png" width="120" height="120" margin="auto"></a>
+            </li>
+        </nav>
+    </div>
+
+
+
+
+
 
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
@@ -376,49 +391,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script>
-      
-      $(function (){
-        $('[data-toggle="tooltip"]').tooltip();
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
         });
-      </script>
-      
-      
-      
-      
-<script type="text/javascript" src="./slick/slick.min.js"></script>
-				<script> 
-$(document).ready(function(){
-  $('.center').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
-});
-	</script>
-      
-      <link rel="stylesheet" href="js/bootstrap.js">
-     <link rel="stylesheet" href="js/main.js">
-     
-      
-  </body>
+    </script>
+
+
+
+
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.center').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
 </html>

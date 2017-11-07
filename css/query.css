@@ -1,0 +1,237 @@
+@media screen and (min-width: 360px) and (max-width:667px) {
+
+
+    .brnamenav {
+        font-size: 1.3em
+    }
+
+    .navforq {
+
+        font-size: 1em;
+    }
+
+
+    .form-control {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+
+    }
+
+    .bmnavforq {
+        font-size: 0.25em;
+
+
+    }
+
+
+    #bmnavpic {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+
+
+    }
+
+
+    #logopic1 {
+
+        text-align: center;
+        width: 150px;
+        height: 120px;
+        margin: 1em 1em 1em 1em;
+    }
+
+    .brname {
+
+        font-size: 3.5em;
+        text-align: center;
+        padding: 0.4em 0 0 0;
+    }
+
+
+    .epitch {
+        font-size: 1em;
+        margin: 1em 0 0 0;
+        text-align: center;
+    }
+
+    .btngetst {
+
+        font-size: 1em;
+        margin: 1em 0 0 0;
+        text-align: center;
+    }
+
+    .btn-secondary {
+        border-radius: 22px;
+        font-size: 10px;
+        min-height: 22px;
+        min-width: 22px;
+        padding: 5.5px 16.5px;
+
+    }
+
+    .col-sm-4 {
+        font-size: 1em;
+        margin: 1em 0 0 0;
+        text-align: center;
+
+
+    }
+
+    .sreport {
+        text-align: center;
+        font-size: 20px;
+        margin: 1em 1em 1em 1em;
+    }
+    .aboutinfo {
+
+        font-size: 0.7em;
+        text-align: center;
+        padding: 15px 15px 15px 15px;
+    }
+    .contactinfo {
+        font-size: 0.7em;
+        text-align: center;
+        padding: 15px 15px 15px 15px;
+        margin-right: 1em;
+        margin-top: 5px;
+    }
+
+
+    .map {
+
+        width: 328px;
+        height: 215px;
+        font-size: 1em;
+    }
+
+    .mname {
+
+
+        font-size: 1.1em;
+        text-align: center;
+
+    }
+
+    .mpic {
+
+        width: 140px;
+        height: 190px;
+
+        margin-left: -2.5em;
+    }
+
+
+    .mdesc1 {
+
+        font-size: 0.6em;
+        text-align: center;
+
+    }
+
+    .msection {
+        font-size: 0.6em;
+        text-align: center;
+
+
+    }
+
+
+    .panel {
+        font-size: 0.6em;
+        text-align: center;
+
+    }
+
+    .screens {
+
+        padding: 2.5px;
+        border: 0.5px solid #2c0e0e;
+        border-radius: 0.5px;
+        width: 125px;
+        height: 100px;
+        background: rgba(126, 56, 56, 0.65);
+        box-shadow: 0.5px 0.5px 0.5px #000;
+        transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+
+    }
+
+    .trailer {
+
+        padding: 2.5px;
+        border: 0.5px solid #2c0e0e;
+        border-radius: 0.5px;
+        width: 250px;
+        height: 160px;
+        background: rgba(126, 56, 56, 0.65);
+        box-shadow: 0.5px 0.5px 0.5px #000;
+        transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -webkit-transition: all 0.4s;
+
+    }
+
+
+    .newreoth {
+
+
+        font-size: 0.5em;
+        color: #fff;
+        padding: 10px 5px;
+        border-radius: 2.5px;
+        border: 0.5px solid #000;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 0.9em 0 0.9em 0;
+    }
+
+    #oscreen {
+        padding: 0px;
+        width: 100px;
+        height: 120px;
+        border: 1.5px solid #2c0e0e;
+        border-radius: 0.5px;
+        box-shadow: 0.5px 0.5px 0.5px #000;
+        background: rgba(126, 56, 56, 0.65);
+        margin-left: 3em;
+    }
+
+    #ofont {
+        margin-top: 2.5px;
+        color: rgba(181, 152, 26, 0.72);
+        font-family: Patua One, sans-serif;
+        text-align: center;
+        font-size: 0.6em;
+
+    }
+    #ocard {
+
+        background-color: transparent;
+        border: transparent;
+
+    }
+
+
+
+    .card {
+
+        width: 20px;
+    }
+
+    #line {
+        width: 100%;
+        height: 2.2px;
+        display: block;
+        background: #000;
+        margin-bottom: -10px;
+        margin-top: 5em;
+    }
+
+
+
+}

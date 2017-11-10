@@ -72,6 +72,17 @@ body {
     text-align: center;
 }
 
+
+#carouselmain {
+
+    border: 2px solid rgba(67, 61, 61, 0.7);
+    border-radius: 1px;
+    background: rgba(0, 0, 0, 0.46);
+    box-shadow: 1px 1px 1px #ebebeb;
+    padding: 5px 5px;
+    margin-top: -1em;
+}
+
 .jumbotron jumbotron-fluid {
     background: #aaa;
 }

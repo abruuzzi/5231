@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768) {
+@media only screen and (max-width: 768px) {
 
 
     .brnamenav {
@@ -97,16 +97,18 @@
         font-size: 0.7em;
         text-align: center;
         padding: 15px 15px 15px 15px;
-        margin-right: 1em;
+        margin-right: 2.5em;
         margin-top: 5px;
     }
 
 
     .map {
 
-        width: 328px;
+        width: 338px;
         height: 215px;
         font-size: 1em;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .mname {
@@ -181,7 +183,7 @@
     .newreoth {
 
 
-        font-size: 0.5em;
+        font-size: 0.65em;
         color: #fff;
         padding: 10px 5px;
         border-radius: 2.5px;
@@ -232,6 +234,54 @@
         margin-top: 5em;
     }
 
+    .center {
+        width: 480px;
 
+    }
+    .simg {
 
+        margin: 0.5em 0.5em 0.5em 0.5em;
+        width: 100px;
+        height: 120px;
+    }
+
+    #mscreen {
+        padding: 0px;
+        width: 110px;
+        height: 130px;
+        border: 1.5px solid rgba(74, 64, 64, 0.86);
+        border-radius: 0.5px;
+        box-shadow: 0.5px 0.5px 0.5px rgba(206, 188, 188, 0.63);
+        background: rgba(131, 125, 125, 0.87);
+        margin-left: 2em;
+    }
+
+    #mcard {
+        width: 12.5rem;
+        margin: 0.7em 0.7em 0.7em 0.7em;
+        background-color: transparent;
+        border: transparent;
+
+    }
+
+    #mfont {
+        margin-top: 1.5px;
+        color: rgba(248, 245, 232, 0.72);
+        font-family: Patua One, sans-serif;
+        text-align: center;
+        font-size: 0.85em;
+
+    }
+
+    #stable {
+
+        font-size: 0.6em;
+        margin: 1.2em 1.2em 1.2em 1.2em auto;
+    }
+
+    #stable2 {
+
+        font-size: 0.6em;
+        margin: 1.2em 1.2em 1.2em 1.2em auto;
+    }
 }
